@@ -31,3 +31,10 @@ import "./index.css";
 console.log(
   '👋 This message is being logged by "renderer.js", included via webpack'
 );
+
+import { createApp } from "vue";
+import App from "./App.vue";
+
+const app = createApp(App);
+
+app.mount("#app");
