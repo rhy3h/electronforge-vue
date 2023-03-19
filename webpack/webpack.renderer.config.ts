@@ -9,6 +9,15 @@ rules.push({
 });
 
 rules.push({
+  test: /\.scss$/,
+  use: [
+    { loader: "vue-style-loader" },
+    { loader: "css-loader" },
+    { loader: "sass-loader" },
+  ],
+});
+
+rules.push({
   test: /\.vue$/,
   use: [{ loader: "vue-loader" }],
 });
