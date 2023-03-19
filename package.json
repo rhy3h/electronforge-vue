@@ -18,6 +18,7 @@
     "@electron-forge/cli": "^6.0.5",
     "@electron-forge/maker-squirrel": "^6.0.5",
     "@electron-forge/maker-zip": "^6.0.5",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.0.5",
     "@electron-forge/plugin-webpack": "^6.0.5",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
