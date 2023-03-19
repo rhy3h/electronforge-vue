@@ -7,7 +7,7 @@ import { mainConfig } from "./webpack/webpack.main.config";
 import { rendererConfig } from "./webpack/webpack.renderer.config";
 
 const config: ForgeConfig = {
-  packagerConfig: {},
+  packagerConfig: { asar: true },
   rebuildConfig: {},
   makers: [new MakerSquirrel({}), new MakerZIP({}, ["win32"])],
   plugins: [
@@ -27,6 +27,10 @@ const config: ForgeConfig = {
         ],
       },
     }),
+    {
+      name: "@electron-forge/plugin-auto-unpack-natives",
+      config: {},
+    },
   ],
 };
 
