@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1>Hello Vue!</h1>
+    <RouterLink to="/">Home</RouterLink>
+    <RouterLink to="/about">About</RouterLink>
+
+    <RouterView></RouterView>
   </div>
 </template>
 
@@ -10,7 +13,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 h1 {
   color: red;
 }
