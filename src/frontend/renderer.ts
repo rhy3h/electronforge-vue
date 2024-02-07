@@ -26,17 +26,17 @@
  * ```
  */
 
-import "./index.css";
+import './index.css';
+
+import { createApp } from 'vue';
+
+import { router } from './router';
+import App from './App.vue';
 
 console.log(
-  '👋 This message is being logged by "renderer.js", included via webpack'
+  '👋 This message is being logged by "renderer.js", included via webpack',
 );
-
-import { createApp } from "vue";
-
-import { router } from "./router";
-import App from "./App.vue";
 
 const app = createApp(App).use(router);
 
-app.mount("#app");
+app.mount('#app');
