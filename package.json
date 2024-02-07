@@ -11,6 +11,10 @@
     "publish": "electron-forge publish",
     "lint": "eslint --ext .ts,.tsx ."
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhy3h/electronforge-vue"
+  },
   "keywords": [],
   "author": "Rick",
   "license": "MIT",
