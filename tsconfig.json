@@ -15,5 +15,5 @@
       "*": ["node_modules/*"]
     }
   },
-  "include": ["src/**/*", "webpack/**/*"]
+  "include": ["src/**/*", "webpack/**/*", "forge.config.ts"]
 }
